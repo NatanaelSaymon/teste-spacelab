@@ -152,6 +152,7 @@ section.avaliacao{
 .item .grid-item{
   width: 300px;
   display: flex;
+  margin-bottom: 15px;
 }
 
 .item-desc p{
@@ -248,6 +249,9 @@ section.skills-portfolio{
 .btn-container .btns a.instagram{
   color: #C1329F;
 }
+.btn-container .btns a.whatsapp{
+  color: #00E676;
+}
 .btn-container .btns a.github:hover{
   color: #ffffff;
   background-color: #cccccc;
@@ -263,6 +267,11 @@ section.skills-portfolio{
 .btn-container .btns a.instagram:hover{
   color: #ffffff;
   background-color: #C1329F;
+}
+
+.btn-container .btns a.whatsapp:hover{
+  color: #ffffff;
+  background-color: #00E676;
 }
 /* section skill-portfolio fim */
 
