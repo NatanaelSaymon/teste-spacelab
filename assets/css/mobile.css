@@ -1,0 +1,27 @@
+@media(min-width: 666px) and (max-width: 999px){
+  .avaliacao-container .item-container{
+   justify-content: flex-start;
+  }
+}
+@media (max-width: 624px){
+  section.skills-portfolio{
+    flex-direction: column;
+  }
+
+  section.skills-portfolio .skills,
+  section.skills-portfolio .portfolio{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .btn-container .btns a{
+    margin: 10px 5px;
+  }
+}
+
+@media(max-width: 408px){
+  .newsletter-container form input{
+    margin-bottom: 5px;
+  }
+}
